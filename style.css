@@ -1,0 +1,134 @@
+body{
+    background: #111; margin: 0px;
+}
+
+#banner{
+
+    width: 100%;
+    height: 500px;
+    margin: 0px auto;
+    background-color:  #000;
+    background-image: url(planet1.png), url(stars-28.png), url(star1.png);
+    background-position: 120% 70px, 0px 0px, 0px 0px;
+    background-repeat: no-repeat, repeat, repeat;
+    animation: animate-background linear 50s infinite;
+}
+@keyframes animate-background{
+    from{background-position: 120% 70px, 0px 0px, 0px 0px;
+
+    }
+    to{background-position: -20% 70px, -640px 0px, -1000px 0px;
+
+    }
+}
+
+
+body {
+    background-image: url(stars-28.png), url(star1.png);   
+    background-repeat:  repeat, repeat;
+    animation: animate-background linear 50s infinite; 
+}
+
+/* header*/
+#header img {
+    height: 40px;
+    width: 40px;
+    margin-left: 7px;
+    margin-right: 7px;
+    text-align: right;
+    
+}
+#header a {
+    text-decoration: none;
+    
+}
+#header img:hover {
+    opacity: 0.8;
+}
+
+#header {
+    text-align: right;
+}
+
+
+/* link */
+.section {
+   
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px; 
+}
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}
+
+/* Contacts section end*/
+.copyright {
+    font-size: 10pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color:whitesmoke;
+    background-size: cover;
+    background-color:black;
+
+}
+
+/* main*/
+.G{
+    color:yellow;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 200px;
+    font-family:"Lobster" ; 
+    text-shadow: 5px 2px 4px white;
+    white-space: pre-line;
+    text-align: center;
+}
+
+
+
+p em{
+    color: greenyellow;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    font-family:"Give You Glory" ; 
+    text-shadow: none;
+}
+
+
+/* footer*/
+
+#footer p {
+    font-size: 25pt;
+    color:wheat;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 100px;
+    font-family:"Hi Melody', cursive" ; 
+}
+
+#footer p a{
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    
+    
+}
+
